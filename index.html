@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Borel&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--Link to Skeleton Style Sheet which makes it look nicer-->
 </head>
 
 <body>
@@ -19,6 +20,12 @@
     </div>
     <button id="exportPdf">Export PDF</button>
     <button id="exportPpt">Export PPT</button>
+    <div>
+        <h2>Filters</h2>
+        <input type="number" placeholder="Min Value" id="minValue">
+        <input type="number" placeholder="Max Value" id="maxValue">
+        <button id="applyFilter">Apply Filter</button>
+    </div>
 
     <div id="vizContainer">
         <!-- This is the div where I will place my dashboard -->
